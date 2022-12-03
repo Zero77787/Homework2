@@ -8,10 +8,10 @@ int sPS3;
 int ePS3;
 if (sPS1<ePS1 && sPS1<sPS2 && ePS2>ePS1 && ePS2>sPS2 && ePS1==sPS2) {
     sPS3=ePS1;
-    System.out.println("Точка пересечения " + sPS3 );
+    System.out.println("Точка пересечения отрезков " + sPS3 );
 } else if (sPS2<ePS2 && sPS2<sPS1 && ePS2 < ePS1 && sPS1<ePS1 && ePS2==sPS1) {
     sPS3=ePS2;
-    System.out.println( "Точка пересечения " + sPS3);
+    System.out.println( "Точка пересечения отрезков " + sPS3);
 } else if (sPS1 < ePS1 && ePS1 < sPS2 && sPS2 < ePS2) {
     System.out.println(" Отрезки не пересекаются ");
 } else if (sPS1 > ePS1 && ePS1 > sPS2 && sPS2 > ePS2) {
@@ -50,14 +50,14 @@ if (sPS1<ePS1 && sPS1<sPS2 && ePS2>ePS1 && ePS2>sPS2 && ePS1==sPS2) {
     System.out.println("Точки пересечения отрезков "+sPS3+" и "+ePS3  );
 }else if (sPS1==ePS2 && ePS1<sPS2) {
     sPS3=ePS2;
-    System.out.println("Точка пересечения " + sPS3  );
+    System.out.println("Точка пересечения отрезков " + sPS3  );
 } else if (sPS1 < sPS2 && sPS2<ePS2 && sPS2 > ePS2 && ePS2< ePS1 && ePS1 != sPS2) {
     sPS3=ePS2;
     ePS3=sPS2;
     System.out.println(" Точки пересечения отрезков "+sPS3+" и "+ePS3  );
 } else if (sPS1 < ePS1 && ePS2 < sPS2 && ePS1==sPS2) {
     sPS3=ePS1;
-    System.out.println("Точка пересечения " + sPS3 );
+    System.out.println("Точка пересечения отрезков " + sPS3 );
 } else if (sPS1 > ePS1 && ePS1<sPS2 && sPS2 > ePS2) {
     sPS3=ePS1;
     ePS3=sPS1;
